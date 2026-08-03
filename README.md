@@ -29,9 +29,9 @@ This repository serves two purposes:
 
 ## 🎮 Projects
 
-| No. | Project | Source |
-|:---:|---------|--------|
-| 1 | Hit The Octocat | [main.py](./hit-the-octocat/main.py) |
+| No. | Project | README | Source |
+|:---:|---------|--------|--------|
+| 1 | Hit The Octocat | [README](./hit-the-octocat/README.md) | [main.py](./hit-the-octocat/main.py) |
 
 ---
 
