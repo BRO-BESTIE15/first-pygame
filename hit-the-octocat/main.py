@@ -5,24 +5,26 @@ pygame.init()
 SCREEN_WIDTH = 720
 SCREEN_HEIGHT = 1280
 FPS = 60
-RECT_WIDTH = 200
-RECT_HEIGHT = 100
+
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 x= 0
 y = 200
 run = True
 start_time = None
-speed = 5
 clock = pygame.time.Clock()
 score = 0
 font = pygame.font.Font(None, 50)
+octocat = pygame.image.load("octocat.png")
+last_text = font.render("GAME OVER", True, "white")
+octocat = pygame.transform.scale(octocat, (150, 150))
+
 while run:
     screen.fill("blue")
     if score < 5:
-        rect =pygame.draw.rect(screen, 'red' , (x ,y, RECT_WIDTH, RECT_HEIGHT))
+        rect = octocat.get_rect(topleft=(x, y))
+        screen.blit(octocat, rect)
     
     score_text = font.render(f"Score: {score}", True, 'black')
-    last_text = font.render("GAME OVER", True, "white")
     screen.blit(score_text, (0,0))
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
@@ -32,8 +34,8 @@ while run:
             if score < 5:
                 if rect.collidepoint(event.pos):
                     score += 1
-                    x = random.randint(0, SCREEN_WIDTH - RECT_WIDTH)
-                    y = random.randint(0, SCREEN_HEIGHT - RECT_HEIGHT)
+                    x = random.randint(0, SCREEN_WIDTH - rect.width)
+                    y = random.randint(0, SCREEN_HEIGHT - rect.height)
                 
     
             
