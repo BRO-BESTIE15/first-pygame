@@ -1,7 +1,7 @@
 # First Pygame 🎮
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
-![Pygame CE](https://img.shields.io/badge/Pygame-CE-green)
+![Pygame](https://img.shields.io/badge/Pygame-green)
 ![Status](https://img.shields.io/badge/Status-Learning-orange)
 ![License](https://img.shields.io/github/license/BRO-BESTIE15/first-pygame)
 
@@ -11,7 +11,7 @@ A collection of my Pygame projects built while learning Python game development.
 
 ## 📖 About
 
-This repository focuses on learning the **Pygame CE** library through hands-on projects. It is not intended to teach Python fundamentals, but to document my journey of learning game development by building progressively more challenging games.
+This repository focuses on learning the **Pygame** library through hands-on projects. It is not intended to teach Python fundamentals, but to document my journey of learning game development by building progressively more challenging games.
 
 ---
 
@@ -19,7 +19,7 @@ This repository focuses on learning the **Pygame CE** library through hands-on p
 
 This repository serves two purposes:
 
-- Learn the **Pygame CE** library by building small games.
+- Learn the **Pygame** library by building small games.
 - Build a meaningful game development portfolio on my GitHub profile.
 
 

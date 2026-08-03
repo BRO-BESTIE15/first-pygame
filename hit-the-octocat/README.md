@@ -1,6 +1,6 @@
 # 🎯 Hit The Octocat
 
-The first version of a simple Pygame CE clicking game.
+The first version of a simple Pygame clicking game.
 
 ## Features
 
@@ -18,10 +18,10 @@ python main.py
 ## Requirements
 
 - Python 3.x
-- Pygame CE
+- Pygame 
 
 ```bash
-pip install pygame-ce
+pip install pygame
 ```
 
 ## Notes
