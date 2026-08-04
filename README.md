@@ -32,6 +32,7 @@ This repository serves two purposes:
 | No. | Project | README | Source |
 |:---:|---------|--------|--------|
 | 1 | Hit The Octocat | [README](./hit-the-octocat/README.md) | [main.py](./hit-the-octocat/main.py) |
+|2|Pygame Screensaver|[README](pygame-screensaver/README.md)|[main.py](pygame-screensaver/main.py)|
 
 ---
 
