@@ -11,7 +11,7 @@ A collection of my Pygame projects built while learning Python game development.
 
 ## 📖 About
 
-This repository focuses on learning the **Pygame** library through hands-on projects. It is not intended to teach Python fundamentals, but to document my journey of learning game development by building progressively more challenging games.
+This repository focuses on learning the **Pygame** library through hands-on projects. It is not intended to teach Python fundamentals, but to document my journey of learning game development by building interactive games and applications.
 
 ---
 
@@ -22,9 +22,6 @@ This repository serves two purposes:
 - Learn the **Pygame** library by building small games.
 - Build a meaningful game development portfolio on my GitHub profile.
 
-
-
-
 ---
 
 ## 🎮 Projects
@@ -32,7 +29,9 @@ This repository serves two purposes:
 | No. | Project | README | Source |
 |:---:|---------|--------|--------|
 | 1 | Hit The Octocat | [README](./hit-the-octocat/README.md) | [main.py](./hit-the-octocat/main.py) |
-|2|Pygame Screensaver|[README](pygame-screensaver/README.md)|[main.py](pygame-screensaver/main.py)|
+| 2 | Pygame Screensaver | [README](./pygame-screensaver/README.md) | [main.py](./pygame-screensaver/main.py) |
+
+> **Note:** The `ice-prize-price` project has been moved to its own repository: [BRO-BESTIE15/ice-prize-price](https://github.com/BRO-BESTIE15/ice-prize-price)
 
 ---
 
@@ -46,7 +45,6 @@ cd first-pygame
 ```
 
 ### 2. Install the dependency
-
 
 ```bash
 pip install -r requirements.txt
