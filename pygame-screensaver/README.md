@@ -5,8 +5,8 @@ A simple DVD-style screensaver made with Pygame.
 ## Features
 
 - Bouncing rectangle animation.
-- Changes to a random color on every bounce.
-- Smooth 60 FPS animation.
+- Bounces around the screen at 22 FPS.
+- Displays the supplied logo image in its original colors.
 - Clean, function-based code structure.
 
 ## Run
